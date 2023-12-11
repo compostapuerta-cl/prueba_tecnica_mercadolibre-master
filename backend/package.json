@@ -1,0 +1,29 @@
+{
+  "name": "mercado-libre-backend",
+  "version": "1.0.0",
+  "description": "Backend for MercadoLibre's technical interview",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Composta Puerta",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "1.5.1",
+    "cors": "2.8.5",
+    "dotenv": "16.3.1",
+    "express": "4.18.2",
+    "zod": "3.22.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends": [
+      "standard"
+    ]
+  }
+}

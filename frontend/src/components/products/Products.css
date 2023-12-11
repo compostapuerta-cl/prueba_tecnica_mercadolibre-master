@@ -1,0 +1,40 @@
+.products-container {
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  gap: 1rem
+}
+
+.product-container {
+  padding: 16px;
+  width: 100%;
+  display: flex;
+  gap: 2rem;
+  border-bottom: 3px solid rgb(233, 233, 233);
+}
+
+.product-image {
+  max-width: 200px;
+  object-fit: cover;
+}
+
+.product-info {
+  display: flex;
+  width: 400px;
+  flex-direction: column;
+}
+
+.product-price {
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+.product-title {
+  color: gray;
+}
+
+.free-shipping {
+  color: rgb(15, 154, 15);
+}

@@ -1,0 +1,45 @@
+.navbar-container {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 20px;
+  gap: 2rem;
+}
+
+.navbar-logo {
+  max-height: 70px;
+  object-fit: contain;
+}
+
+.search-form {
+  display: flex;
+  height: 45px;
+  align-content: center;
+}
+
+.search-form > input {
+  width: 500px;
+  padding: 0 10px;
+  border: none;
+}
+
+.search-form > input:focus {
+  outline: none;
+}
+
+.search-button {
+  width: 40px;
+  border: none;
+  padding: 10px;
+  transition: 150ms all ease-in-out;
+}
+
+.search-button:hover {
+  background-color: rgb(191, 191, 191);
+  cursor: pointer;
+}
+
+.search-button:active {
+  background-color: rgb(217, 217, 217);
+}
